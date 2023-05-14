@@ -11,7 +11,7 @@ b. The amount of data points aggregated for every device per hours.<br>
 c. Total distance of device movement for every device per hours.
 * Store this aggregated data into the provided MySQL database
 
-<h2> Screenshots </h2>
+<h2> Screenshots: </h2>
 Following is the link of screenshot showing the output of task.<br>
 https://github.com/CodeFazila/PAIR-Finance-Case-Study/blob/main/Final_Output.PNG
 
@@ -19,7 +19,8 @@ https://github.com/CodeFazila/PAIR-Finance-Case-Study/blob/main/Final_Output.PNG
 When the project runs for the first time, it will fetch data of all pevious hours (if there is any) except the current hour, will perform data aggregations and then push to the MySQL database table `analytics.aggregated_data`.<br><br>
 <b>Note:</b> It will then sleep until the current hour completes. When current hour reaches to the end, it will again fetch all records of last hour and dump aggregated data to target database and this program will keep performing like this.  
 
-<h2> Alternative ways to achieve this task </h2>
+<h2> Alternative ways to achieve this task: </h2>
+
 We can achieve this task by following ways:
 * Writing PostgreSQL query to fetch aggregated calculations.
 * We can do calculations of current hour in real time instead of sleeping the program. 
