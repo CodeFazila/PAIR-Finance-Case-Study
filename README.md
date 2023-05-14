@@ -12,4 +12,5 @@ c. Total distance of device movement for every device per hours.
 * Store this aggregated data into the provided MySQL database
 
 <h2> Screenshots </h2>
+Following is the link of screenshot showing the output of task.
 https://github.com/CodeFazila/PAIR-Finance-Case-Study/blob/main/Final_Output.PNG
