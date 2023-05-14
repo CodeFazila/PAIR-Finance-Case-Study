@@ -11,3 +11,5 @@ b. The amount of data points aggregated for every device per hours.<br>
 c. Total distance of device movement for every device per hours.
 * Store this aggregated data into the provided MySQL database
 
+<h2> Screenshots </h2>
+https://github.com/CodeFazila/PAIR-Finance-Case-Study/blob/main/Final_Output.PNG
