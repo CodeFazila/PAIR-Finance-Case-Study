@@ -22,4 +22,4 @@ When the project runs for the first time, it will fetch data of all pevious hour
 <h2> Alternative ways to achieve this task </h2>
 We can achieve this task by following ways:
 * Writing PostgreSQL query to fetch aggregated calculations.
-* 
+* We can do calculations of current hour in real time instead of sleeping the program. 
